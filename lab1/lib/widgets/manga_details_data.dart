@@ -28,7 +28,7 @@ class MangaDetailData extends StatelessWidget {
         ),
       ),
       child: Column(
-        mainAxisAlignment: MainAxisAlignment.center, // Centers vertically
+        mainAxisAlignment: MainAxisAlignment.start, // Centers vertically
         crossAxisAlignment: CrossAxisAlignment.center, // Centers horizontally
         children: [
           const SizedBox(height: 20),
