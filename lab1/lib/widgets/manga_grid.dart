@@ -21,7 +21,7 @@ class _MangaGridState extends State<MangaGrid> {
       childAspectRatio: 200 / 244,
       physics: const BouncingScrollPhysics(),
       children: widget.manga.map((manga) =>
-          MangaCard(id: manga.id, name: manga.name, image: manga.img),
+          MangaCard(id: manga.id, name: manga.name,description: manga.description,price: manga.price, image: manga.img),
       ).toList(),
     );
   }

@@ -17,8 +17,8 @@ class Details extends StatelessWidget {
         child: Column(
           children: [
             MangaDetailImage(image: arguments.img),
-            MangaDetailTitle(id: arguments.id, name: arguments.name),
-            MangaDetailData(id: arguments.id),
+            MangaDetailTitle(id: arguments.id, name: arguments.name,),
+            MangaDetailData(id: arguments.id,description:arguments.description,price:arguments.price),
           ],
         ),
       ),

@@ -8,7 +8,7 @@ class MangaDetailTitle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Chip(backgroundColor: Colors.white,
-      label: Text("${name[0].toUpperCase()}${name.substring(1)}",
+      label: Text("${name[0].toUpperCase()}${name.substring(1)} \n ",
         style: const TextStyle(fontSize: 24, color: Colors.black),
       ),
       avatar: CircleAvatar(

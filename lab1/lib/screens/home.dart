@@ -11,10 +11,10 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   List<Manga> manga = [
-    Manga(id: 1, name: "One piece", img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj13Tc4MZaNERfp7Xah4MW6UT7krg0P8H89A&s'),
-    Manga(id: 2, name: "Naruto", img: 'https://i.pinimg.com/474x/a5/ac/65/a5ac65849901c6294fbc3f0c46d1fa94.jpg'),
-    Manga(id: 4, name: "Jojo's bizarre adventure", img: 'https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781974708109/jojos-bizarre-adventure-part-4-diamond-is-unbreakable-vol-4-9781974708109_hr.jpg'),
-    Manga(id: 5, name: "Chainsawman", img: 'https://static.wikia.nocookie.net/chainsaw-man/images/0/0f/Volume_01.png/revision/latest/scale-to-width-down/1200?cb=20230907225315')
+    Manga(id: 1, name: "One piece",description: "this is one piece",price:10, img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj13Tc4MZaNERfp7Xah4MW6UT7krg0P8H89A&s'),
+    Manga(id: 2, name: "Naruto",description: "this is one piece",price:10, img: 'https://i.pinimg.com/474x/a5/ac/65/a5ac65849901c6294fbc3f0c46d1fa94.jpg'),
+    Manga(id: 4, name: "Jojo's bizarre adventure",description: "this is one piece",price:10, img: 'https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781974708109/jojos-bizarre-adventure-part-4-diamond-is-unbreakable-vol-4-9781974708109_hr.jpg'),
+    Manga(id: 5, name: "Chainsawman", description: "this is one piece",price:10, img: 'https://static.wikia.nocookie.net/chainsaw-man/images/0/0f/Volume_01.png/revision/latest/scale-to-width-down/1200?cb=20230907225315')
   ];
 
   @override
