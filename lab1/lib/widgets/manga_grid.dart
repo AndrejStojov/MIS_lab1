@@ -14,7 +14,7 @@ class _MangaGridState extends State<MangaGrid> {
     //final width = MediaQuery.of(context).size.width;
     return GridView.count(
       padding: const EdgeInsets.all(6),
-      crossAxisCount: 2,
+      crossAxisCount: 1,
       crossAxisSpacing: 4,
       mainAxisSpacing: 4,
       semanticChildCount: 250,
